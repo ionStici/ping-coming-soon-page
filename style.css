@@ -174,3 +174,77 @@ li {
     line-height: 1.2rem;
     color: #969696;
 }
+
+/* MEDIA QUERIES */
+
+/* 768/16=48 */
+@media only screen and (min-width: 48em) {
+    .form__message {
+        font-size: 1.2rem;
+        letter-spacing: 0.15px;
+        left: 3rem;
+        bottom: -2.4rem;
+        top: revert;
+        transform: revert;
+    }
+
+    .header {
+        margin: 8rem auto 9.4rem auto;
+    }
+
+    .logo {
+        margin-bottom: 4rem;
+        width: revert;
+    }
+
+    .h1 {
+        margin-bottom: 1.6rem;
+        font-size: 4.8rem;
+        line-height: 6rem;
+    }
+
+    .p {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .form {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 1.6rem;
+    }
+
+    .form__email-input {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        width: 42.1rem;
+    }
+
+    .btn {
+        width: 20rem;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        padding: 1.9rem;
+    }
+
+    .main {
+        max-width: 69.6rem;
+        margin-bottom: 7.2rem;
+    }
+
+    .footer {
+        margin-bottom: 4.9rem;
+    }
+
+    ul {
+        margin-bottom: 2.5rem;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
+
+/* END */
